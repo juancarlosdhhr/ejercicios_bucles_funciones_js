@@ -42,6 +42,8 @@ for (let i = 0; i < starWarsMovies.length; i++) {
 
     // Añade la película al array correspondiente a esta década
     moviesByDecade[decade].push(movie.title);
+
+    //Dependiendo de la decada metele dentro el titulo de la pelicula
 }
 
 // Imprime el resultado
