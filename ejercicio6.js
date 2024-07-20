@@ -22,7 +22,7 @@ const starWarsMovies = [
 
 
   
-  //PENDIENTE DE ESTUDIAR:
+  
 
   // Objeto para almacenar las películas agrupadas por década
 const moviesByDecade = {};
