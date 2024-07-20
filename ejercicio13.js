@@ -17,7 +17,23 @@ const actors = [
   ];
   
   function calculateActorsAges(actors) {
-    const CurrentYear = new Date().getFullYear();º         // 
+    const CurrentYear = new Date().getFullYear();   //  Para hallar el año actual
+    const result = []; // Para crear un array nuevo donde almacenar los resultados
+ 
+ for (let i=0; i < actors.length; i++) { 
+const actor = actors[i]; //Para hallar el actor actual
+const age  = CurrentYear - actor.born //Para calcular la edad de cada actor
+
+result.push({name: actor.name, age: age}); // Para guardar los nombres y las edades en el array nuevo "result"
+ }
+ 
+ return result;  
   }
+
+  const AgesOfActors = calculateActorsAges(actors);
+
+  console.log(AgesOfActors);
+
+ 
   
 
