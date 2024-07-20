@@ -17,7 +17,7 @@ const actors = [
   ];
   
   function calculateActorsAges(actors) {
-    // insert code
+    const CurrentYear = new Date().getFullYear();º         // 
   }
   
 
